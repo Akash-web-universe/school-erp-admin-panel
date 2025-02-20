@@ -1,0 +1,28 @@
+:root {
+    --color-background: #a14f4f;
+    --color-text: #090b1d;
+    --body-bg-color: #ffffff;
+    --body-bg-color2: #dddcdcf6;
+    --body-text-color: #000;
+    --body-form-bg-color: #fff;
+}
+
+[data-theme="dark"] {
+    --color-background: #a41d1d;
+    --color-text: #ffffff;
+    --body-bg-color: #0f1122;
+    --body-bg-color2: #0e1023;
+    --body-text-color: #ffffff;
+    --body-form-bg-color: #232538;
+    --body-form-border-color:#757272;
+    --body-form-input-bg-color:#1c1e32;
+}
+
+:root {
+    --icon-fill: #000; /* Light theme icon color */
+    --icon-fill-hover: #f39c12; /* Hover color */
+    --ease-elastic-3: cubic-bezier(0.42, 0, 0.58, 1);
+    --ease-elastic-4: cubic-bezier(0.42, 0, 0.58, 1.6);
+    --ease-3: cubic-bezier(0.42, 0, 0.58, 1);
+    --ease-out-5: cubic-bezier(0.4, 0, 0.2, 1);
+  }

@@ -1,0 +1,40 @@
+.classroom-list-container {
+  @apply flex flex-col justify-center items-center w-full;
+  
+  h2 {
+    @apply text-center text-[var(--color)] text-[3rem] font-semibold mb-[2rem] mt-[3rem];
+  }
+}
+
+.classroom-list-container{
+  @apply flex mx-auto justify-center items-center w-full px-[3rem];
+
+  table {
+    @apply w-full border-collapse  ;
+
+    thead {
+      @apply w-full bg-gray-600;
+
+      th {
+        @apply text-left px-4 py-2 ;
+      }
+    }
+
+    tbody {
+      tr {
+        @apply w-full bg-gray-900;
+        &:nth-child(even) {
+          @apply bg-gray-800;
+        }
+
+        &:hover {
+          @apply bg-gray-500/40;
+        }
+
+        td {
+          @apply px-4 py-2 ;
+        }
+      }
+    }
+  }
+}

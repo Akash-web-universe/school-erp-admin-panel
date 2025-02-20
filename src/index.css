@@ -1,0 +1,11 @@
+@import "tailwindcss";
+@import "./styles/main.scss";
+
+
+::-webkit-scrollbar {
+  width: .0001px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #a14f4f; /* Change to your desired color */
+}

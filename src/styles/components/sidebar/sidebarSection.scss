@@ -1,0 +1,16 @@
+.sidebar{
+    @apply  sticky top-0  text-[var(--body-text-color)] min-h-screen ;
+    
+    h1{
+        @apply text-2xl text-center py-4 font-bold; 
+    }
+
+    ul{
+        @apply grid gap-4 ps-[10%] mt-[2rem];
+
+        .sidebar-link{
+            @apply flex items-center gap-4 cursor-pointer ;
+        }
+    }
+    
+}

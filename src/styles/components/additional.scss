@@ -1,0 +1,7 @@
+.whole-container{
+    @apply bg-[var(--body-bg-color)]
+}
+.body-container{
+    @apply  rounded-t-[1rem] me-[1rem] bg-[var(--body-bg-color2)] text-[var(--body-text-color)] min-h-screen ;
+    box-shadow: rgba(171, 174, 176, 0.227) -10px -8px 24px;
+}

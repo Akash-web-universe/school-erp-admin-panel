@@ -1,0 +1,32 @@
+.login-section{
+    @apply grid grid-cols-2 h-screen
+}
+.login-ls{
+    @apply flex justify-center items-center w-full
+}
+.login-rs{
+    @apply flex justify-center items-center w-full
+}
+.login-form{
+    @apply flex flex-col w-[70%] ;
+
+    h2{
+        @apply text-center text-[var(--color)] text-[3rem] font-semibold mb-[2rem];
+    }
+    input {
+        @apply p-[1rem] focus:outline-none border mb-[2rem] border-gray-400/20 rounded-full placeholder:text-gray-200;
+
+        box-shadow: rgba(0, 0, 0, 0.041) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+
+        
+      }
+      .eye-btn{
+        @apply absolute right-3 bg-transparent border-none  transform top-[.13rem] text-gray-500 hover:text-gray-700 transition duration-200
+    }
+      p{
+        @apply text-red-500 text-center mb-[.3rem]
+      }
+    button{
+        @apply p-[1rem]  border bg-black text-white rounded-full border-gray-300;
+    }
+}
